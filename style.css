@@ -59,6 +59,7 @@ button{
     background-color: white;
     bottom: 40px;
     width: max-content;
+    cursor:pointer;
     border-radius: 50px; 
     mix-blend-mode: lighten;
 }
