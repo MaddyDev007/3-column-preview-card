@@ -31,7 +31,6 @@ body{
 .card1 , .card2 , .card3{
     padding: 40px;
     max-height: 480px;
-    max-width: 250px;
 }
 .card1{
     background-color: var(--Brightorange);
@@ -61,10 +60,9 @@ button{
     bottom: 40px;
     width: max-content;
     border-radius: 50px; 
-    transition: background-color 0.15s linear, color 0.15s linear;    
     mix-blend-mode: lighten;
 }
-button:hover{
+button:active{
     color: white;
     background: transparent;
     outline: 2px solid;
